@@ -9,8 +9,9 @@ public class pickup : MonoBehaviour
 
     void OnMouseDown()
     {
-        GetComponent<SphereCollider>().enabled = false;
+        //GetComponent<SphereCollider>().enabled = false;
         GetComponent<Rigidbody>().useGravity = false;
+        //GetComponent<BoxCollider>().enabled = false;
 
         this.transform.position = destination.position;
 
@@ -21,7 +22,8 @@ public class pickup : MonoBehaviour
     {
         this.transform.parent = null;
         GetComponent<Rigidbody>().useGravity = true;
-        GetComponent<SphereCollider>().enabled = true;
+        //GetComponent<SphereCollider>().enabled = true;
+        //GetComponent<BoxCollider>().enabled = true;
 
 
     }
