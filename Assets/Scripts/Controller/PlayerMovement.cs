@@ -79,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && isGrounded)
         {
             Vector3 position = Camera.main.transform.position;
-            position[1] = 2f;
+            position[1] = 4f;
             Camera.main.transform.position = position;
             //controller.height = 2f;
             // controller.center = new Vector3(0f, 1f, 0f);
@@ -89,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonUp("Fire1"))
         {
             Vector3 position = Camera.main.transform.position;
-            position[1] = 4f;
+            position[1] = 8f;
             Camera.main.transform.position = position;
             //          controller.center = new Vector3(0f, -1f, 0f);
             //            controller.height = originalHeight;
