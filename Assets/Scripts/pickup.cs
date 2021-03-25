@@ -9,13 +9,17 @@ public class pickup : MonoBehaviour
 
     void OnMouseDown()
     {
-        //GetComponent<SphereCollider>().enabled = false;
-        GetComponent<Rigidbody>().useGravity = false;
-        //GetComponent<BoxCollider>().enabled = false;
+        float dist = Vector3.Distance(this.transform.position, destination.position);
+        if(dist < 5f)
+        { 
+            //GetComponent<SphereCollider>().enabled = false;
+            GetComponent<Rigidbody>().useGravity = false;
+            //GetComponent<BoxCollider>().enabled = false;
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+            this.transform.position = destination.position;
 
-        this.transform.position = destination.position;
-
-        this.transform.parent = GameObject.Find("destination").transform;
+            this.transform.parent = GameObject.Find("destination").transform;
+        }
     }
 
     void OnMouseUp()
