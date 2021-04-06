@@ -14,8 +14,8 @@ public class pickup : MonoBehaviour
     //{
     //    if (Input.GetMouseButton(0))
     //    {
-    //        mPosDelta = Input.mousePosition - mPrevPos;
-    //        transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right), Space.World);
+    //        print("test mouse down");
+    //        OnMouseDown1();
     //    }
     //    mPrevPos = Input.mousePosition;
     //}
@@ -32,9 +32,9 @@ public class pickup : MonoBehaviour
         //this.transform.Rotate(Vector3.up, 90.0f);
         mPosDelta = Input.mousePosition - mPrevPos;
         transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right), Space.World);
-        //mPrevPos = Input.mousePosition;
+
         if (dist < 5f)
-        { 
+        {
             //GetComponent<SphereCollider>().enabled = false;
             GetComponent<Rigidbody>().useGravity = false;
             //GetComponent<BoxCollider>().enabled = false;
@@ -51,11 +51,6 @@ public class pickup : MonoBehaviour
 
         }
     }
-
-    //void Update()
-    //{
-    //    mPrevPos = Input.mousePosition;
-    //}
 
     void OnMouseUp()
     {
