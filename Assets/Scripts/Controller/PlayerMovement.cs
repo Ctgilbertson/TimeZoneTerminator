@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -78,24 +80,8 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetButtonDown("Fire1") && isGrounded)
         {
-            Vector3 position = Camera.main.transform.position;
-            position[1] = 2f;
-            Camera.main.transform.position = position;
-            //controller.height = 2f;
-            // controller.center = new Vector3(0f, 1f, 0f);
-            // speed = 12f;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-
-        if (Input.GetButtonUp("Fire1"))
-        {
-            Vector3 position = Camera.main.transform.position;
-            position[1] = 4f;
-            Camera.main.transform.position = position;
-            //          controller.center = new Vector3(0f, -1f, 0f);
-            //            controller.height = originalHeight;
-            //           speed = originalMoveSpeed;
-        }
-
 
     }
 }

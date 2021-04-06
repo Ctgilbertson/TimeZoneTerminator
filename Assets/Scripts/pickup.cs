@@ -6,6 +6,7 @@ public class pickup : MonoBehaviour
 {
 
     public Transform destination;
+    public GameObject uiObject;
     Vector3 mPrevPos = Vector3.zero;
     Vector3 mPosDelta = Vector3.zero;
 
@@ -18,6 +19,11 @@ public class pickup : MonoBehaviour
     //    }
     //    mPrevPos = Input.mousePosition;
     //}
+
+    void Start()
+    {
+        uiObject.SetActive(false);
+    }
 
     void OnMouseDown()
     {
@@ -39,6 +45,10 @@ public class pickup : MonoBehaviour
             //this.transform.Rotate(Vector3.forward * 20);
 
             this.transform.parent = GameObject.Find("destination").transform;
+
+            uiObject.SetActive(true);
+
+
         }
     }
 
@@ -53,6 +63,8 @@ public class pickup : MonoBehaviour
         GetComponent<Rigidbody>().useGravity = true;
         //GetComponent<SphereCollider>().enabled = true;
         //GetComponent<BoxCollider>().enabled = true;
+        uiObject.SetActive(false);
+
     }
 
 }
