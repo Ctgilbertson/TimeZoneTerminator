@@ -35,16 +35,11 @@ public class pickup : MonoBehaviour
 
         if (dist < 5f)
         {
-            //GetComponent<SphereCollider>().enabled = false;
-            GetComponent<Rigidbody>().useGravity = false;
-            //GetComponent<BoxCollider>().enabled = false;
-            GetComponent<Rigidbody>().velocity = Vector3.zero;
-
-
-            //this.transform.position = destination.position;
-            //this.transform.Rotate(Vector3.forward * 20);
-
+            GetComponent<Collider>().enabled = false;
             this.transform.parent = GameObject.Find("destination").transform;
+            GetComponent<Rigidbody>().useGravity = false;
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+            GetComponent<Rigidbody>().freezeRotation = true;
 
             uiObject.SetActive(true);
 
@@ -56,8 +51,9 @@ public class pickup : MonoBehaviour
     {
         this.transform.parent = null;
         GetComponent<Rigidbody>().useGravity = true;
-        //GetComponent<SphereCollider>().enabled = true;
-        //GetComponent<BoxCollider>().enabled = true;
+        GetComponent<Collider>().enabled = true;
+        GetComponent<Rigidbody>().freezeRotation = false;
+
         uiObject.SetActive(false);
 
     }

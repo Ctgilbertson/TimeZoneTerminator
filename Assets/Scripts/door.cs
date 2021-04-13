@@ -5,6 +5,7 @@ using UnityEngine;
 public class door : MonoBehaviour
 {
     public Transform open;
+    public GameObject uiObject;
 
     // ROtation 0,90,0
     //position -1.21, 1.13, -2.72
@@ -16,6 +17,8 @@ public class door : MonoBehaviour
         {
             this.transform.parent.position = open.position;
             this.transform.parent.rotation = open.rotation;
+            Destroy(other.gameObject);
+            uiObject.SetActive(false);
 
         }
     }
