@@ -31,7 +31,7 @@ public class pickup : MonoBehaviour
 
         //this.transform.Rotate(Vector3.up, 90.0f);
         mPosDelta = Input.mousePosition - mPrevPos;
-        transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right), Space.World);
+        //transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right), Space.World);
 
         if (dist < 5f)
         {
