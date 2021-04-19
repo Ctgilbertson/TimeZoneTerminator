@@ -1740,7 +1740,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "This shattered Jack Daniels bottle, Andy\u2019s favorite drink, has a
-    thick red liquid on it, not quite the color of blood..."
+    thick red liquid on it, not quite the color of blood... Fingerprint of pattern
+    HJKL is also found on it."
 --- !u!222 &301090828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1973,8 +1974,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'this is the description for the Paint can. Each object will obviously
-    have a different description but this is the setup for it. '
+  m_Text: 'Upon closer examination, the painting has the following sequence of numbers
+    hidden in it: 968'
 --- !u!222 &342284110
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3277,9 +3278,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A diary with the lastest entry: \u201CApr 13 rain: today I saw that woman
-    again near my factory. She was in black with blue lips, same as the day she tried
-    to kill me last year.\u201D"
+  m_Text: "A diary with the lastest entry: \u201CApr 13 rain: today I saw that woman,
+    Valerie Soloanas again near my factory. She was in black with blue lips, same
+    as the day she tried to kill me last year.\u201D\n\u201CApr 16: I sent invitations
+    to my reunion party today. I struggled a lot about whether to invite Mike or
+    not. He is an important member of my band, but his conflict with Olivia would
+    definitely make the party awkward.\u201D\n\u201CApr 19: my headache recurred
+    today so I have to take some Morphine.\u201D\n"
 --- !u!222 &571355309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5466,7 +5471,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Andy Warhol is hosting a reunion party for his band, The Velvet Underground,
-    at The Factory at 5pm. Olivia Bridges was invited to attend.\r"
+    at The Factory at 5pm. Olivia Bridges was invited to attend.\r Mick Jagger was
+    also invited."
 --- !u!222 &1107255949
 CanvasRenderer:
   m_ObjectHideFlags: 0
