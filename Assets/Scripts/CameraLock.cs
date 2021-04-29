@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeskLock : MonoBehaviour
+public class CameraLock : MonoBehaviour
 {
 
     public Transform destination;
