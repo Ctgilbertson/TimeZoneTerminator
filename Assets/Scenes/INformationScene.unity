@@ -540,7 +540,7 @@ MonoBehaviour:
     studio, The Factory, on June 3, 1983 in order to investigate further.\r\nBy bringing
     modern forensics to the past, the truth behind Olivia Bridges disappearance begins
     to reveal itself through clues hidden in The Factory by Andy Warhol himself.\r\n\r\nClick
-    to Continue"
+    to Continue, Press C to accuse a killer when the time comes"
 --- !u!222 &1354889889
 CanvasRenderer:
   m_ObjectHideFlags: 0

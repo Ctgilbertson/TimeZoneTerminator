@@ -900,7 +900,7 @@ Transform:
   - {fileID: 1221512282}
   - {fileID: 7971091}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &87417442
 GameObject:
@@ -2754,8 +2754,9 @@ Transform:
   - {fileID: 238804508}
   - {fileID: 106055897}
   - {fileID: 1919056623}
+  - {fileID: 457272283}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &238804507 stripped
 GameObject:
@@ -3033,7 +3034,7 @@ Transform:
   - {fileID: 1945670244}
   - {fileID: 1715143199}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &267015861
 GameObject:
@@ -9163,11 +9164,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 227728186}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 640ed6aa950d29449b996a0db81e98fe, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 640ed6aa950d29449b996a0db81e98fe, type: 3}
       propertyPath: m_LocalScale.x
@@ -9183,15 +9184,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 640ed6aa950d29449b996a0db81e98fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.3
+      value: -32.53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 640ed6aa950d29449b996a0db81e98fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.86
+      value: 4.1800003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 640ed6aa950d29449b996a0db81e98fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -53.5
+      value: -31.61
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 640ed6aa950d29449b996a0db81e98fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9199,7 +9200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 640ed6aa950d29449b996a0db81e98fe, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 640ed6aa950d29449b996a0db81e98fe, type: 3}
       propertyPath: m_LocalRotation.y
@@ -15075,7 +15076,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1002653157
 GameObject:
@@ -17678,7 +17679,7 @@ Transform:
   - {fileID: 1983901883}
   - {fileID: 1918067763}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1135838036
 GameObject:
@@ -25981,13 +25982,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A dairy? I wonder what is inside. Lastest entry: \u201CApr 13 rain: today
-    I saw that woman, Valerie Soloanas again near my factory. She was in black with
-    blue lips, same as the day she tried to kill me last year.\u201D\n\u201CApr 16:
-    I sent invitations to my reunion party today. I struggled a lot about whether
-    to invite Mike or not. He is an important member of my band, but his conflict
-    with Olivia would definitely make the party awkward.\u201D\n\u201CApr 19: my
-    headache recurred today so I have to take some Morphine.\u201D\n"
+  m_Text: 'Oh jeez a knife here? What did they use this for? Looks like there is
+    some residue on this that resembles a.... cake?
+
+'
 --- !u!222 &1636037230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28109,7 +28107,7 @@ Transform:
   - {fileID: 1801761007}
   - {fileID: 731762139}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1733467020
 GameObject:
@@ -33932,7 +33930,7 @@ Transform:
   - {fileID: 1740178952}
   - {fileID: 865106486}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073955789
 GameObject:
@@ -37068,7 +37066,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6547144278433768939}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.32774, y: 37.783215, z: -20.858917}
+  m_LocalPosition: {x: 35.46, y: 50.39, z: -97.27}
   m_LocalScale: {x: 0.13829, y: 0.13829, z: 0.13829}
   m_Children:
   - {fileID: 6478363838599908873}
